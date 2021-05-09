@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12252" started-at="2021-05-04T15:40:02Z" finished-at="2021-05-04T15:40:14Z">
+  <suite name="Suite" duration-ms="7910" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12252" started-at="2021-05-04T15:40:02Z" finished-at="2021-05-04T15:40:14Z">
-      <class name="com.Devops.QADEVOPS.TestClass1">
-        <test-method status="PASS" signature="LaunchDriver()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="LaunchDriver" is-config="true" duration-ms="1838" started-at="2021-05-04T15:40:02Z" finished-at="2021-05-04T15:40:04Z">
+    <test name="Test" duration-ms="7910" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:52Z">
+      <class name="TestCases.TestCase">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:TestCases.TestCase@32d992b2]" name="LaunchApp" is-config="true" duration-ms="7527" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="Test1" duration-ms="1919" started-at="2021-05-04T15:40:04Z" finished-at="2021-05-04T15:40:06Z">
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:TestCases.TestCase@32d992b2]" name="LaunchApp" is-config="true" duration-ms="7009" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="quit" is-config="true" duration-ms="690" started-at="2021-05-04T15:40:06Z" finished-at="2021-05-04T15:40:06Z">
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:TestCases.TestCase@32d992b2]" name="LaunchApp" is-config="true" duration-ms="6741" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="LaunchDriver()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="LaunchDriver" is-config="true" duration-ms="1212" started-at="2021-05-04T15:40:06Z" finished-at="2021-05-04T15:40:08Z">
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:TestCases.TestCase@32d992b2]" name="LaunchApp" is-config="true" duration-ms="6972" started-at="2021-05-09T19:56:44Z" finished-at="2021-05-09T19:56:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="Test2" duration-ms="1850" started-at="2021-05-04T15:40:08Z" finished-at="2021-05-04T15:40:09Z">
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TestCase3" duration-ms="596" started-at="2021-05-09T19:56:51Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="quit" is-config="true" duration-ms="679" started-at="2021-05-04T15:40:09Z" finished-at="2021-05-04T15:40:10Z">
+        </test-method> <!-- TestCase3 -->
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TestCase4" duration-ms="366" started-at="2021-05-09T19:56:51Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="LaunchDriver()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="LaunchDriver" is-config="true" duration-ms="1257" started-at="2021-05-04T15:40:10Z" finished-at="2021-05-04T15:40:11Z">
+        </test-method> <!-- TestCase4 -->
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TestCase1" duration-ms="330" started-at="2021-05-09T19:56:51Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="Test3" duration-ms="2049" started-at="2021-05-04T15:40:11Z" finished-at="2021-05-04T15:40:13Z">
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TearDown" is-config="true" duration-ms="419" started-at="2021-05-09T19:56:52Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.Devops.QADEVOPS.TestClass1@6ea12c19]" name="quit" is-config="true" duration-ms="739" started-at="2021-05-04T15:40:13Z" finished-at="2021-05-04T15:40:14Z">
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TearDown" is-config="true" duration-ms="551" started-at="2021-05-09T19:56:52Z" finished-at="2021-05-09T19:56:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.Devops.QADEVOPS.TestClass1 -->
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TearDown" is-config="true" duration-ms="370" started-at="2021-05-09T19:56:52Z" finished-at="2021-05-09T19:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TestCase2" duration-ms="2" started-at="2021-05-09T19:56:52Z" finished-at="2021-05-09T19:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.TestCase@32d992b2]" name="TearDown" is-config="true" duration-ms="287" started-at="2021-05-09T19:56:52Z" finished-at="2021-05-09T19:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.TestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
